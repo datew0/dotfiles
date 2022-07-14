@@ -20,8 +20,8 @@ sudo apt-get install -y \
   lsb-release
 
 # Install Jetbrains Mono font
-wget https://download.jetbrains.com/fonts/JetBrainsMono-2.001.zip
-sudo unzip JetBrainsMono-2.001.zip -d /usr/share/fonts
+wget https://download.jetbrains.com/fonts/JetBrainsMono-2.242.zip -o /tmp/JetBrainsMono.zip
+sudo unzip /tmp/JetBrainsMono.zip -d /usr/share/fonts
 sudo fc-cache -f -v
 
 # Cleanup
